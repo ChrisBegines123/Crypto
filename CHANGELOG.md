@@ -14,8 +14,6 @@ the following form: YYYY.0M.0D.
 - Designed a RSA component
 - Designed a AES component
 - Designed a SHA-256 component
-<<<<<<< Updated upstream
-=======
 
 ## 2025.10.19
 
@@ -26,6 +24,5 @@ the following form: YYYY.0M.0D.
 
 ## 2025.10.23
 
-- Added interfaces for the crypto component
-- Added Hierarchy png
->>>>>>> Stashed changes
+- Added Interfaces
+- Added hierarchy png
