@@ -33,4 +33,8 @@ the following form: YYYY.0M.0D.
 - Created abstract class CryptoSecondary implementing all methods using the kernel and standard methods only.
 - Added toString() and equals() implementations.
 
+## 2025.11.19
+
+### Added
+- Implemented Crypto kernel implementation, fixed secondary and added a test
 
