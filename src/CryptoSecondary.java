@@ -9,8 +9,6 @@
  */
 public abstract class CryptoSecondary implements Crypto {
 
-    ---------------------------------------------------------
-
     @Override
     public void clearKey() {
 
@@ -19,40 +17,23 @@ public abstract class CryptoSecondary implements Crypto {
 
     @Override
     public String encryptAndHash(String message) {
-
-        String result;
         String encrypted = this.encrypt(message);
-        String digest = this.hash(encrypted);
-        result = digest;
-
-        return result;
+        return this.hash(encrypted);
     }
 
     @Override
     public boolean hasKey() {
-
-        boolean result;
-        result = false;
-        return result;
+        return !this.getKey().isEmpty();
     }
 
     @Override
     public String getKey() {
-
-        String result;
-        result = "";
-        return result;
+        return "";
     }
 
     @Override
     public String toString() {
-
-        String result;
-        String status = "key status unknown";
-
-        status = "keySet=" + this.hasKey();
-        result = "Crypto[" + status + "]";
-        return result;
+        return "Crypto[keySet=" + this.hasKey() + "]";
     }
 
     @Override
