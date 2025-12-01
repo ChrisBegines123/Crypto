@@ -5,7 +5,7 @@ import java.util.Random;
  *
  * Representation is this.key: String
  *
- * Convention: - this.key may be null - If this.key is not null, then it must be
+ * @convention  this.key may be null - If this.key is not null, then it must be
  * a non-empty String
  *
  * Correspondence: - If this.key == null, then the abstract state is "empty" /
@@ -58,12 +58,7 @@ public class Crypto1L extends CryptoSecondary {
         return result.toString();
     }
 
-    /**
-     * Kernel method: decrypt(ciphertext)
-     *
-     * Reverses the Caesar-shift transformation from encrypt().
-     */
-    @Override
+
     public String decrypt(String ciphertext) {
         if (this.key == null) {
             throw new IllegalStateException("Key not initialized.");
