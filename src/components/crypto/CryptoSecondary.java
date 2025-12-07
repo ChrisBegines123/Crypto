@@ -1,3 +1,5 @@
+package components.crypto;
+
 /**
  * Secondary abstract class for the Crypto component.
  *

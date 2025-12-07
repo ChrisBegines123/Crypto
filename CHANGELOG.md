@@ -38,3 +38,16 @@ the following form: YYYY.0M.0D.
 ### Added
 - Implemented Crypto kernel implementation, fixed secondary and added a test
 
+## 2025.12.6
+
+### Added
+- JUnit test suite for Crypto component
+- Two use-case examples demonstrating component usage
+- Documentation updates for API behavior and project structure
+
+### Updated
+- Improved Crypto component design and comments
+- Polished README and organized project directory
+
+
+

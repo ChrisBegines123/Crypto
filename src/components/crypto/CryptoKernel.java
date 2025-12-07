@@ -1,3 +1,5 @@
+package components.crypto;
+
 /**
  * Kernel interface for Crypto component.
  *

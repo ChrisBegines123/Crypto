@@ -1,4 +1,4 @@
-package components.standard;
+package components.crypto;
 
 /**
  * Standard interface for mutable types that can be cleared, copied via

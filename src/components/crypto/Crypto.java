@@ -1,3 +1,5 @@
+package components.crypto;
+
 /**
  * Interfaces for Crypto component.
  *
