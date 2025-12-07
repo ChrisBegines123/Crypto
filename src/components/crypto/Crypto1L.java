@@ -1,3 +1,5 @@
+package components.crypto;
+
 import java.util.Random;
 
 /**
@@ -5,11 +7,12 @@ import java.util.Random;
  *
  * Representation is this.key: String
  *
- * @convention  this.key may be null - If this.key is not null, then it must be
- * a non-empty String
+ * @convention this.key may be null - If this.key is not null, then it must be a
+ *             non-empty String
  *
- * Correspondence: - If this.key == null, then the abstract state is "empty" /
- * nokey - If this.key is not null, the abstract key = this.key
+ *             Correspondence: - If this.key == null, then the abstract state is
+ *             "empty" / nokey - If this.key is not null, the abstract key =
+ *             this.key
  *
  * @author Christopher Begines
  * @dot begines.4
@@ -58,7 +61,7 @@ public class Crypto1L extends CryptoSecondary {
         return result.toString();
     }
 
-
+    @Override
     public String decrypt(String ciphertext) {
         if (this.key == null) {
             throw new IllegalStateException("Key not initialized.");

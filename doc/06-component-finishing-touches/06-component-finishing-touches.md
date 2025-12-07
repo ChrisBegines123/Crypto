@@ -50,7 +50,6 @@ course, but just knowing about them could set you up for long term success.
 
 ## Assignment Checklist
 
-<!-- TODO: browse the checklist then delete this comment -->
 
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
@@ -140,8 +139,6 @@ merges, you will need to pull the changes from main into your current branch
 to see them. If you don't like this workflow, you may try following the
 rebase strategies described [here](https://stackoverflow.com/questions/35790561/working-while-waiting-for-pending-pr)
 and [here](https://stackoverflow.com/questions/18021888/continue-working-on-a-git-branch-after-making-a-pull-request).
-
-<!-- TODO: make a new branch from main then delete this comment -->
 
 ## Assignment Tasks
 
@@ -307,18 +304,18 @@ Take some time to fill them out honestly.
 > complete the portfolio project, how much better (or worse) do you think you
 > understand software development and why?
 
-<!-- TODO: discuss -->
+This project helped me understand software development as a structured, multi stage process rather than just writing code to pass tests. I broke the component into interfaces, an abstract class, and a kernel made me think about design decisions, contracts, and how someone else would use the API. It felt closer to real world work because I needed documentation, meaningful structure, and version control, not just functionality.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
 
-<!-- TODO: discuss -->
+The biggest gaps I had discovered were in testing without a reference implementation and ensuring my code did actually matched my own contracts. I addressed by checking my representation conventions carefully, and designing tests that verify state instead of just outputs.
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+This project didnt make me enjoy software development less if anything, it made me appreciate the importance of clarity and planning. I now see how much work goes into making code understandable and maintainable. It made the process feel more realistic and showed me that design and testing are just as important as implementation.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -326,29 +323,31 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+I learned how to structure a component using the OSUs discipline, also how to write JUnit tests without a reference implementation, how to document APIs clearly, and how to use the Git branches and pull requests in a much more professional way.
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+Designed a reusable Java component using interfaces, an abstract class, and a kernel implementation
+Wrote a complete JUnit test suite for kernel, standard, and secondary methods
+Documented API behavior and use cases with clear contracts and invariants
+Used GitHub branches, pull requests, and changelog based version tracking
+Applied design by contract and OSU component development practices
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
-<!-- TODO: discuss -->
+Completing this component has made me more interested in software security and more also about API design. Even though the cryptography here is pretty simple, working with keys, hashing, and transformations strengthened my interest in cybersecurity related software engineering. It confirmed that I really do enjoy building structured, well designed systems.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
 
-<!-- TODO: discuss -->
+To continue growing, I could work on larger security focused projects, contribute to some open source codebases, or build some more realistic cryptography tools using standard libraries. Potential mentors include Comp sci instructors from the software sequence, TAs, or some upper level students with software or cyber internships, and faculty involved in cybersecurity or systems research.
 
 ### Changelog
-
-<!-- TODO: update CHANGELOG then delete this comment -->
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
@@ -367,8 +366,8 @@ the following form: YYYY.0M.0D.
 
 ### Added
 
-- Designed test suite for <!-- insert name of component here --> component
-- Designed two different use cases for <!-- insert name of component here --> component
+- Designed test suite for Crypto component
+- Designed two different use cases for Crypto component
 
 ### Updated
 
@@ -383,8 +382,6 @@ like to accomplish that, you will need to make GitHub releases after each pull
 request merge (or at least tag your commits). This is not required.
 
 ### Submission
-
-<!-- TODO: read the submission instructions then delete this comment -->
 
 Assuming that your project is in a GitHub repo somewhere and your changes are on
 a proof-of-concept branch, then what we'll want you to do is create a pull
@@ -435,7 +432,5 @@ PDF to read this rubric as a table).
 If you'd like to give feedback for this assignment (or any assignment, really),
 make use of [this survey][survey]. Your feedback helps make assignments
 better for future students.
-
-<!-- TODO: follow the link to share your feedback then delete this comment -->
 
 [survey]: https://forms.gle/dumXHo6A4Enucdkq9
